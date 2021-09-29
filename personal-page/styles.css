@@ -9,7 +9,8 @@ h1 {
     font-family: helvetica;
     font-size: 70px;
     color: #0B2EE1;
-    box-sizing: border-box;
+    
+    
     
     
 }
@@ -24,6 +25,7 @@ header{
     display:flex;
     flex-direction:column;
     align-items: center;
+    position: fixed;
 
 }
 footer{
@@ -31,4 +33,8 @@ footer{
 }
 a{
     color: slategray;
+}
+
+nav{
+    position: sticky;
 }
