@@ -1,14 +1,15 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+  
     
 }
 h1 {
     font-family: helvetica;
     font-size: 70px;
-    color: #0B2EE1;
+    color: #21409A;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
     
     
     
@@ -23,13 +24,14 @@ main{
 header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display:flex;
-    flex-direction:column;
-    align-items: center;
-    position: fixed;
+    padding-left: 250px;
 
 }
 footer{
     color: #0B2EE1;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
 }
 a{
     color: slategray;
