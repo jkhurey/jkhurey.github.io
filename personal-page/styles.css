@@ -1,6 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #331673;
+    background-image: image(blob.png);
     
 }
 h1 {
@@ -101,4 +102,5 @@ nav{
     font-family: 'hwt-gothic-round, sans-serif';
     src: url('https://use.typekit.net/iic0ijx.css');
 }
+
 
