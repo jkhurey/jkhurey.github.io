@@ -1,9 +1,8 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #331673;
-    background-image: image(blob.png);
-    
-}
+    background-image: url(../img/blobs.png);
+    }
 h1 {
     font-family: hwt-gothic-round, sans-serif;
     font-weight: 900;
