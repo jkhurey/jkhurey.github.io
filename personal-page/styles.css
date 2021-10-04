@@ -1,18 +1,25 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #D2D9D8;
+    background-color: #331673;
     
 }
 h1 {
-    font-family: helvetica;
+    font-family: hwt-gothic-round, sans-serif;
+    font-weight: 900;
+    font-style: normal;
     font-size: 70px;
-    color: #A62182;
+    color: #03A688;
     display:flex;
     flex-direction:column;
     align-items: center;
     }
 h2{
-   color: #03A688;
+    font-family: new-spirit, serif;
+    font-weight: 300;
+    font-size: 30px;
+
+font-style: normal;
+   color: #D2D9D8;
 
 }
     
@@ -28,7 +35,7 @@ h2{
         color: #21409A;  
           }
 main{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -37,9 +44,14 @@ section {
     display: flex;
     flex-direction: column;
 }
+header{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    display:flex;
+    padding-left: 250px;
 
+}
 footer{
-    color: #0B2EE1;
+    color: #F2E205;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -52,28 +64,28 @@ nav{
     position: sticky;
 }
 .linked button {
-    color: #03A688;
-    border-color: #03A688;
+    color: #D2D9D8;
+    border-color: #D2D9D8;
   }
   
   .portfolio button {
-    color: #03A688;
-    border-color: #03A688;
+    color: #D2D9D8;
+    border-color: #D2D9D8;
   }
   
   .twitter button {
-    color: #03A688;
-    border-color:#03A688;
+    color: #D2D9D8;
+    border-color:#D2D9D8;
   }
   
   button:hover {
-    color: #A61F2B;
+    color: #03A688;
     
   }
   
   button:focus {
-    color: #A62182;
-    animation: gradOutline 2s infinite, gradBg 2s infinite;
+    color: #03A688;
+    
     outline-offset: 3px;
   }
   
@@ -83,5 +95,10 @@ nav{
   .portfolio button:focus,
   .twitter button:hover,
   .twitter button:focus {
-    border-color: #A62182;
+    border-color: #03A688;
   }
+  @font-face {
+    font-family: 'hwt-gothic-round, sans-serif';
+    src: url('https://use.typekit.net/iic0ijx.css');
+}
+
