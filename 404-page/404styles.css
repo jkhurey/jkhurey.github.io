@@ -10,6 +10,9 @@ section {
 }
 body{
    background-image: url(../img/Sand.png);
+   background-repeat: no-repeat;
+   background-position: flex;
+   background-size: cover;
     }
     .home button {
         color: #D2D9D8;
