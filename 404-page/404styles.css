@@ -39,8 +39,7 @@ body{
         
       }
       
-      button:focus {
-        color: #03A688;
+     
         
         outline-offset: 3px;
       }
